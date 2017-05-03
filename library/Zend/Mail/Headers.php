@@ -23,10 +23,10 @@ use Zend\Loader\PluginClassLocator;
 class Headers implements Countable, Iterator
 {
     /** @var string End of Line for fields */
-    const EOL = "\r\n";
+    const EOL = PHP_EOL;
 
     /** @var string Start of Line when folding */
-    const FOLDING = "\r\n ";
+    const FOLDING = "\n ";
 
     /**
      * @var \Zend\Loader\PluginClassLoader
